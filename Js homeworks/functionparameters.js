@@ -23,7 +23,7 @@ function drink_pop (){
 
 var mealList = [drink_beer, eat_burgur, drink_pop,drink_beer]
 function visitCarnaval (mList){
-for(var i = 0 ,  num = mList.length ; i<num ; i++ ) {
+for(var i =0 , num = mList.length ; i<num ; i++ ) {
 // mList[i]();
     mList[i].call();
 };
